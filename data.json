@@ -1,0 +1,17 @@
+[
+        {
+            "level": "pour 2 gorgées",
+            "question": "Quelle est la capitale du Canada",
+            "answer": "Ottawa"
+        },
+        {
+            "level": "pour 2 gorgées",
+            "question": "Quelle est la capitale de l'Australie",
+            "answer": "Canberra"
+        },
+        {
+            "level": "pour 3 gorgées",
+            "question": "De quelle ville les Beatles sont-ils originaires ?",
+            "answer": "Liverpool"
+        }
+]

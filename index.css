@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+h1 {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 2em 0;
+}
+body {
+  background-color: #73b9ff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quiz {
+  background-color: #73b9ff;
+  color: #2b2b2b;
+  border-radius: 50px;
+  box-shadow: 10px 10px 30px #5c94cc, -10px -10px 30px #8adeff;
+  padding: 20px;
+  height: 75%;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.register_screen {
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+}
+.register_screen form {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.register_screen input {
+  height: 50px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 6px #629dd9, inset -2px -2px 6px #84d5ff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+}
+.question_screen {
+  display: none;
+
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+}
+.answer_screen {
+  display: none;
+
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+}
+.final_screen {
+  display: none;
+
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+}
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}

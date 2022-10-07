@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatbile" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="" />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="quiz">
+      <!--REGISTER-->
+
+      <div class="register_screen">
+        <form method="post">
+          <input type="text" id="pseudo1" />
+          <input type="text" id="pseudo2" />
+          <input type="text" id="pseudo3" />
+          <input type="text" id="pseudo4" />
+        </form>
+        <div class="btn">
+          <button class="load_btn" id="load" name="load">jouer</button>
+        </div>
+      </div>
+
+      <!--QUESTION-->
+
+      <div class="question_screen">
+        <h1 class="player_text" id="player">player</h1>
+        <h1 class="level_text" id="level">level</h1>
+        <h2 class="question_text" id="question">question</h2>
+        <div class="btn">
+          <button class="next_btn" id="next">suivant</button>
+        </div>
+      </div>
+
+      <!--ANSWER-->
+
+      <div class="answer_screen">
+        <h2 class="answer_text" id="answer">answer</h2>
+        <div class="btn">
+          <button class="notok_btn" id="notok">
+            <img src="images/icon1.svg" />
+          </button>
+          <button class="ok_btn" id="ok"><img src="images/icon2.svg" /></button>
+        </div>
+      </div>
+
+      <!--FINAL-->
+
+      <div class="final_screen">
+        <h1 id="winner">player</h1>
+        <h1>A gagné !</h1>
+        <div class="btn">
+          <button class="reload_btn" id="reload" name="reload">rejouer</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

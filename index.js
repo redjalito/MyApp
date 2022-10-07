@@ -1,0 +1,250 @@
+
+document.getElementById("load").addEventListener("click", () => {
+  document.querySelector(".register_screen").style.display = "none";
+  document.querySelector(".question_screen").style.display = "block";
+  pseudo();
+});
+document.getElementById("next").addEventListener("click", () => {
+  document.querySelector(".question_screen").style.display = "none";
+  document.querySelector(".answer_screen").style.display = "block";
+});
+document.getElementById("notok").addEventListener("click", () => {
+  document.querySelector(".question_screen").style.display = "block";
+  document.querySelector(".answer_screen").style.display = "none";
+  nextPseudo();
+  moins();
+});
+document.getElementById("ok").addEventListener("click", () => {
+  document.querySelector(".question_screen").style.display = "block";
+  document.querySelector(".answer_screen").style.display = "none";
+  nextPseudo();
+  plus();
+});
+document.getElementById("reload").addEventListener("click", () => {
+  location.reload();
+});
+
+//PSEUDO
+
+const pseudo1 = document.getElementById("pseudo1");
+const pseudo2 = document.getElementById("pseudo2");
+const pseudo3 = document.getElementById("pseudo3");
+const pseudo4 = document.getElementById("pseudo4");
+
+const pseudoData = [pseudo1, pseudo2, pseudo3, pseudo4];
+
+let random = 0;
+
+function pseudo() {
+  const indexPseudoData = pseudoData[random];
+  document.getElementById("player").innerText = indexPseudoData.value;
+  loadGame()
+}
+
+function nextPseudo() {
+  random++;
+
+  if (random < pseudoData.length) {
+    pseudo();
+  } else {
+    random = 0;
+    pseudo();
+  }
+
+  console.log(random, "a", score[random]);
+}
+
+function final() {
+  document.querySelector(".question_screen").style.display = "none";
+  document.querySelector(".final_screen").style.display = "block";
+
+  if (random > 0) {
+    random--;
+    finalScreen();
+  } else {
+    random = pseudoData.length - 1;
+    finalScreen();
+  }
+}
+
+function finalScreen() {
+  const indexPseudoData = pseudoData[random];
+  document.getElementById("winner").innerText = indexPseudoData.value;
+}
+
+//SCORE
+
+const score = [0, 0, 0, 0];
+
+function plus() {
+  if (score[random] < 4) {
+    score[random]++;
+  } else {
+    final();
+  }
+}
+
+function moins() {
+  if (score[random] > 0) {
+    score[random]--;
+  } else {
+    score[random] = 0;
+  }
+  console.log(random, "a", score[random]);
+}
+
+//LOAD GAME
+
+const gameData = [
+
+    {
+      level: "facile",
+      question: "De quelle ville les Beatles sont-ils originaires ?",
+      answer: "Liverpool",
+    },
+    {
+      level: "facile",
+      question: "Quelle est la capitale de la France ?",
+      answer: "Paris",
+    },
+    {
+      level: "facile",
+      question: "Quelle est la capitale des États-Unis ?",
+      answer: "Washington",
+    },
+    {
+      level: "facile",
+      question: "Qui interprète le rôle de Michael Corleone dans Le Parrain ?",
+      answer: "Al Pacino",
+    },
+    {
+      level: "facile",
+      question: "Quelle est la capitale de l'Allemagne ?",
+      answer: "Berlin",
+    },
+    {
+      level: "moyen",
+      question: "Quelle est la capitale du Canada ?",
+      answer: "Ottawa",
+    },
+    {
+      level: "moyen",
+      question: "Qui a peint le plafond de la chapelle Sixtine à Rome ?",
+      answer: "Michel-Ange",
+    },
+    {
+      level: "moyen",
+      question: "Que s’est-il passé le 20 juillet 1969 ?",
+      answer: "Neil Armstrong pose le pied sur la Lune",
+    },
+    {
+      level: "moyen",
+      question: "Comment s'appelle le colocataire de Sheldon dans la série The Big Bang Theory ?",
+      answer: "Leonard Hofstadter",
+    },
+    {
+      level: "moyen",
+      question: "Qui a réalisé le film Les Dents de la mer ?",
+      answer: "Steven Spielberg",
+    },
+    {
+      level: "moyen",
+      question: "En quelle année a eu lieu la chute du mur de Berlin ?",
+      answer: "1989",
+    },
+    {
+      level: "moyen",
+      question: "Qui était le premier président des États-Unis ?",
+      answer: "George Washington",
+    },
+    {
+      level: "moyen",
+      question: "Quelle est la capitale de l'Inde ?",
+      answer: "New Delhi",
+    },
+    {
+      level: "moyen",
+      question: "Dans quel pays se trouve la ville de Cancún ?",
+      answer: "Mexique",
+    },
+    {
+      level: "moyen",
+      question: "Quel est le prénom de Squeezie ?",
+      answer: "Lucas",
+    },
+    {
+      level: "moyen",
+      question: "Qui est le plus jeune pilote de F1 à avoir remporté un grand prix ?",
+      answer: "Max Verstappen",
+    },
+    {
+      level: "difficile",
+      question: "En quelle année le métro de Londres a-t-il été créé ?",
+      answer: "1863",
+    },
+    {
+      level: "difficile",
+      question: "En quelle année est né Emmanuel Macron ?",
+      answer: "1977",
+    },
+    {
+      level: "difficile",
+      question: "Qui a composé la musique de la saga Star Wars ?",
+      answer: "John Williams",
+    },
+    {
+      level: "difficile",
+      question: "Qui a réalisé le film Le Bon, la Brute et le Truand ?",
+      answer: "Sergio Leone",
+    },
+    {
+      level: "difficile",
+      question: "Que s'est-il passé le 29 avril 1945 ?",
+      answer: "Les Françaises votent pour la première fois",
+    },
+    {
+      level: "difficile",
+      question: "En combien de temps la Tour Eiffel a-t-elle été construite ?",
+      answer: "2 ans",
+    },
+    {
+      level: "difficile",
+      question: "Vers quelle période la pyramide de Khéops a-t-elle été construite ?",
+      answer: "Vers 2500 avant J.-C.",
+    },
+    {
+      level: "difficile",
+      question: "Quel est le tout premier film de Quentin Tarantino ?",
+      answer: "Reservoir Dogs",
+    },
+    {
+      level: "difficile",
+      question: "Qui a fondé l'Académie Française ?",
+      answer: "Le cardinal de Richelieu",
+    },
+    {
+      level: "difficile",
+      question: "Quelle est la capitale de la Turquie ?",
+      answer: "Ankara",
+    }
+
+]
+
+function getRandomItem(arr) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    const item = arr[randomIndex];
+    return item;
+}
+
+const levelEl = document.getElementById('level')
+const questionEl = document.getElementById('question')
+const answerEl = document.getElementById('answer')
+
+function loadGame() {
+
+    const result = getRandomItem(gameData);
+    levelEl.innerText = result.level;
+    questionEl.innerText = result.question;
+    answerEl.innerText = result.answer;
+
+}
