@@ -199,6 +199,11 @@ const gameData = [
     },
     {
       level: "difficile",
+      question: "Qui a fondé la célèbre marque de luxe Gucci ?",
+      answer: "Guccio Gucci",
+    },
+    {
+      level: "difficile",
       question: "Que s'est-il passé le 29 avril 1945 ?",
       answer: "Les Françaises votent pour la première fois",
     },
