@@ -189,6 +189,16 @@ const gameData = [
     },
     {
       level: "difficile",
+      question: "Combien y a-t'il d'utilisateurs d'Internet actifs  ?",
+      answer: "4,66 milliards",
+    },
+    {
+      level: "difficile",
+      question: "En quelle année la NASA a-t-elle annoncé avoir réussi à faire éclore la première fleur dans l’espace ?",
+      answer: "2016",
+    },
+    {
+      level: "difficile",
       question: "Qui a composé la musique de la saga Star Wars ?",
       answer: "John Williams",
     },
