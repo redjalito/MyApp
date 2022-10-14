@@ -129,6 +129,16 @@ const gameData = [
     },
     {
       level: "moyen",
+      question: "De quels gaz est principalement composé l'atmosphère ?",
+      answer: "D'azote et d'oxygène",
+    },
+    {
+      level: "moyen",
+      question: "Quel animal est le prédateur des cobras ?",
+      answer: "La mangouste",
+    },
+    {
+      level: "moyen",
       question: "Qui a peint le plafond de la chapelle Sixtine à Rome ?",
       answer: "Michel-Ange",
     },
