@@ -95,7 +95,7 @@ function moins() {
 
 //LOAD GAME
 
-const gameData = [
+const initial_values = [
 
     {
       level: "facile",
@@ -302,9 +302,20 @@ const answerEl = document.getElementById('answer')
 
 function loadGame() {
 
+    const gameData = initial_values;
+
     const result = getRandomItem(gameData);
     levelEl.innerText = result.level;
     questionEl.innerText = result.question;
     answerEl.innerText = result.answer;
 
+    const suppr = gameData.indexOf(result);
+    
+    if (gameData.length > 1) {
+      gameData.splice(suppr, 1);
+      console.log(gameData);
+    }
+    else {
+      gameData.push(...initial_values);
+    }
 }
