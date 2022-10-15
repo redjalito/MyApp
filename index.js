@@ -109,6 +109,16 @@ const initial_values = [
     },
     {
       level: "facile",
+      question: "Qui est la première femme à recevoir un prix Nobel ?",
+      answer: "Marie Curie",
+    },
+    {
+      level: "facile",
+      question: "Quelle est la capitale de la Grèce ?",
+      answer: "Athènes",
+    },
+    {
+      level: "facile",
       question: "Quel est le jeux-vidéo le plus vendu au monde ?",
       answer: "Minecraft",
     },
@@ -189,6 +199,36 @@ const initial_values = [
     },
     {
       level: "moyen",
+      question: "Quelle est la musique la plus populaire du groupe de rock Green Day ?",
+      answer: "Boulevard of Broken Dreams",
+    },
+    {
+      level: "moyen",
+      question: "Quel est le nom du premier album des Daft Punk ?",
+      answer: "Homework",
+    },
+    {
+      level: "moyen",
+      question: "De quel collectif new-yorkais ASAP Rocky fait-il parti ?",
+      answer: "ASAP Mob",
+    },
+    {
+      level: "moyen",
+      question: "En quelle année est décédé Michael Jackson ?",
+      answer: "2009",
+    },
+    {
+      level: "moyen",
+      question: "Quel artiste surnomme-t-on le parrain de la soul ?",
+      answer: "James Brown",
+    },
+    {
+      level: "moyen",
+      question: "Quelle enseigne a développé le jeux-vidéo GTA ?",
+      answer: "Rockstar Games",
+    },
+    {
+      level: "moyen",
       question: "Qui était le premier président des États-Unis ?",
       answer: "George Washington",
     },
@@ -224,6 +264,11 @@ const initial_values = [
     },
     {
       level: "difficile",
+      question: "De quel pays Lima est-elle la capitale ?",
+      answer: "Pérou",
+    },
+    {
+      level: "difficile",
       question: "En quelle année est né Emmanuel Macron ?",
       answer: "1977",
     },
@@ -241,6 +286,11 @@ const initial_values = [
       level: "difficile",
       question: "En quelle année la NASA a-t-elle annoncé avoir réussi à faire éclore la première fleur dans l’espace ?",
       answer: "2016",
+    },
+    {
+      level: "difficile",
+      question: "12x12",
+      answer: "144",
     },
     {
       level: "difficile",
@@ -281,6 +331,11 @@ const initial_values = [
       level: "difficile",
       question: "Qui a fondé l'Académie Française ?",
       answer: "Le cardinal de Richelieu",
+    },
+    {
+      level: "difficile",
+      question: "Combien y a-t-il d'océans sur Terre ?",
+      answer: "5",
     },
     {
       level: "difficile",
