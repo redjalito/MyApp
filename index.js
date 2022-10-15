@@ -109,6 +109,21 @@ const gameData = [
     },
     {
       level: "facile",
+      question: "Quel est le jeux-vidéo le plus vendu au monde ?",
+      answer: "Minecraft",
+    },
+    {
+      level: "facile",
+      question: "En quelle année est sorti le premier Call Of Duty ?",
+      answer: "2003",
+    },
+    {
+      level: "facile",
+      question: "Quel joueur de football apparaît le plus sur les couvertures des jeux Fifa ?",
+      answer: "Wayne Rooney",
+    },
+    {
+      level: "facile",
       question: "Quelle est la capitale des États-Unis ?",
       answer: "Washington",
     },
@@ -121,6 +136,11 @@ const gameData = [
       level: "facile",
       question: "Quelle est la capitale de l'Allemagne ?",
       answer: "Berlin",
+    },
+    {
+      level: "facile",
+      question: "Quel pays a remporté la coupe du monde de Football en 2010 ?",
+      answer: "Espagne",
     },
     {
       level: "moyen",
