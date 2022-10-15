@@ -124,8 +124,33 @@ const initial_values = [
     },
     {
       level: "facile",
+      question: "Quelle pièce est absolument à protéger dans un jeu d’échec ?",
+      answer: "Le roi",
+    },
+    {
+      level: "facile",
+      question: "Combien de nouvelles chaînes sont apparus grâce à la TNT ?",
+      answer: "12",
+    },
+    {
+      level: "facile",
+      question: "Quelle année a suivi l’an 1 avant JC ?",
+      answer: "L’an 1 après JC",
+    },
+    {
+      level: "facile",
       question: "En quelle année est sorti le premier Call Of Duty ?",
       answer: "2003",
+    },
+    {
+      level: "facile",
+      question: "Quelle ville est surnommée la grande pomme ?",
+      answer: "New York",
+    },
+    {
+      level: "facile",
+      question: "De combien de syllabes est composé un alexandrin ?",
+      answer: "12",
     },
     {
       level: "facile",
@@ -136,6 +161,11 @@ const initial_values = [
       level: "facile",
       question: "Quelle est la capitale des États-Unis ?",
       answer: "Washington",
+    },
+    {
+      level: "facile",
+      question: "De quelle région Bordeaux est-elle le chef lieu ?",
+      answer: "Nouvelle-Aquitaine",
     },
     {
       level: "facile",
@@ -214,6 +244,21 @@ const initial_values = [
     },
     {
       level: "moyen",
+      question: "Combien y a-t-il d'habitants en France ?",
+      answer: "Environ 68 000 000",
+    },
+    {
+      level: "moyen",
+      question: "De quel département la ville de Marseille fait-elle parti?",
+      answer: "Bouches-du-Rhône",
+    },
+    {
+      level: "moyen",
+      question: "En quelle année est sorti Alien, le huitième passager ?",
+      answer: "1979",
+    },
+    {
+      level: "moyen",
       question: "En quelle année est décédé Michael Jackson ?",
       answer: "2009",
     },
@@ -278,7 +323,7 @@ const initial_values = [
       answer: "4,66 milliards",
     },
     {
-      level: "moyen",
+      level: "difficile",
       question: "Quel Pokémon porte le numéro 1 ?",
       answer: "Bulbizarre",
     },
@@ -289,8 +334,18 @@ const initial_values = [
     },
     {
       level: "difficile",
+      question: "Quelle était la longueur du Titanic ?",
+      answer: "269 m",
+    },
+    {
+      level: "difficile",
       question: "12x12",
       answer: "144",
+    },
+    {
+      level: "difficile",
+      question: "Qui a fondé Space X",
+      answer: "Elon Musk",
     },
     {
       level: "difficile",
