@@ -154,6 +154,11 @@ const gameData = [
     },
     {
       level: "moyen",
+      question: "Depuis quelle année une femme est libre de travailler sans l'accord de son mari ?",
+      answer: "1965",
+    },
+    {
+      level: "moyen",
       question: "Qui a réalisé le film Les Dents de la mer ?",
       answer: "Steven Spielberg",
     },
@@ -171,6 +176,11 @@ const gameData = [
       level: "moyen",
       question: "Quelle est la capitale de l'Inde ?",
       answer: "New Delhi",
+    },
+    {
+      level: "moyen",
+      question: "Combien de Pokémons comptaient la première génération ?",
+      answer: "151",
     },
     {
       level: "moyen",
@@ -199,8 +209,13 @@ const gameData = [
     },
     {
       level: "difficile",
-      question: "Combien y a-t'il d'utilisateurs d'Internet actifs  ?",
+      question: "Combien y a-t'il d'utilisateurs d'Internet actifs ?",
       answer: "4,66 milliards",
+    },
+    {
+      level: "moyen",
+      question: "Quel Pokémon porte le numéro 1 ?",
+      answer: "Bulbizarre",
     },
     {
       level: "difficile",
