@@ -109,11 +109,6 @@ const initial_values = [
     },
     {
       level: "facile",
-      question: "Qui est la première femme à recevoir un prix Nobel ?",
-      answer: "Marie Curie",
-    },
-    {
-      level: "facile",
       question: "Quelle est la capitale de la Grèce ?",
       answer: "Athènes",
     },
@@ -124,18 +119,13 @@ const initial_values = [
     },
     {
       level: "facile",
-      question: "Quelle pièce est absolument à protéger dans un jeu d’échec ?",
+      question: "Quelle pièce doit-on absolument protéger dans un jeu d’échec ?",
       answer: "Le roi",
     },
     {
       level: "facile",
       question: "En quelle année a eu lieu le lancement de la TNT (Télévision Numérique Terrestre) en France métropolitaine ?",
       answer: "2005",
-    },
-    {
-      level: "facile",
-      question: "Quelle année a suivi l’an 1 avant JC ?",
-      answer: "L’an 1 après JC",
     },
     {
       level: "facile",
@@ -174,7 +164,7 @@ const initial_values = [
     },
     {
       level: "facile",
-      question: "Qui interprète le rôle de Michael Corleone dans le film Le Parrain ?",
+      question: "Qui joue le rôle de Michael Corleone dans le film Le Parrain ?",
       answer: "Al Pacino",
     },
     {
@@ -194,13 +184,13 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "De quels gaz est principalement composé l'atmosphère ?",
-      answer: "D'azote et d'oxygène",
+      question: "Quel tournoi de tennis précise que les joueurs doivent être habillés en blanc ?",
+      answer: "Wimbledon",
     },
     {
       level: "moyen",
-      question: "Quel animal est le plus grand prédateur des cobras ?",
-      answer: "La mangouste",
+      question: "De quels gaz est principalement composé l'atmosphère ?",
+      answer: "D'azote et d'oxygène",
     },
     {
       level: "moyen",
@@ -209,13 +199,13 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "Que s’est-il passé le 20 juillet 1969 ?",
-      answer: "Neil Armstrong pose le pied sur la Lune",
+      question: "Dans quel pays se trouve le Manneken Pis ?",
+      answer: "Belgique",
     },
     {
       level: "moyen",
-      question: "Comment s'appelle le colocataire de Sheldon dans la série The Big Bang Theory ?",
-      answer: "Leonard Hofstadter",
+      question: "Que s’est-il passé le 20 juillet 1969 ?",
+      answer: "Neil Armstrong pose le pied sur la Lune",
     },
     {
       level: "moyen",
@@ -226,6 +216,16 @@ const initial_values = [
       level: "moyen",
       question: "Qui a réalisé le film Les Dents de la mer ?",
       answer: "Steven Spielberg",
+    },
+    {
+      level: "moyen",
+      question: "Qui a réalisé le film Shining ?",
+      answer: "Stanley Kubrick",
+    },
+    {
+      level: "moyen",
+      question: "Qui joue le rôle de Rachel Green dans la série Friends ?",
+      answer: "Jennifer Aniston",
     },
     {
       level: "moyen",
@@ -259,7 +259,7 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "En quelle année est sorti Alien, le huitième passager ?",
+      question: "En quelle année est sorti le film Alien, le huitième passager ?",
       answer: "1979",
     },
     {
@@ -274,7 +274,7 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "Quel est le vrai nom de Voldemort ?",
+      question: "Comment s'appelle Voldemort ?",
       answer: "Tom Elvis Jedusor",
     },
     {
@@ -316,6 +316,11 @@ const initial_values = [
       level: "difficile",
       question: "De quel pays Lima est-elle la capitale ?",
       answer: "Pérou",
+    },
+    {
+      level: "difficile",
+      question: "De quel pays Doha est-elle la capitale ?",
+      answer: "Qatar",
     },
     {
       level: "difficile",
@@ -396,6 +401,11 @@ const initial_values = [
       level: "difficile",
       question: "Combien y a-t-il d'océans sur Terre ?",
       answer: "5",
+    },
+    {
+      level: "difficile",
+      question: "Combien de temps le match de tennis le plus long de l'histoire a-t-il duré ?",
+      answer: "11 heures et 5 minutes",
     },
     {
       level: "difficile",
