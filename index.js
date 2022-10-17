@@ -400,6 +400,9 @@ const initial_values = [
 
 ]
 
+const gameData = [];
+gameData.push(...initial_values);
+
 function getRandomItem(arr) {
     const randomIndex = Math.floor(Math.random() * arr.length);
     const item = arr[randomIndex];
@@ -412,20 +415,16 @@ const answerEl = document.getElementById('answer')
 
 function loadGame() {
 
-    const gameData = initial_values;
-
     const result = getRandomItem(gameData);
     levelEl.innerText = result.level;
     questionEl.innerText = result.question;
     answerEl.innerText = result.answer;
 
     const suppr = gameData.indexOf(result);
+    gameData.splice(suppr, 1);
+    console.log(gameData);
     
-    if (gameData.length > 1) {
-      gameData.splice(suppr, 1);
-      console.log(gameData);
-    }
-    else {
+    if (gameData.length === 0) {
       gameData.push(...initial_values);
     }
 }
