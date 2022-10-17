@@ -194,6 +194,16 @@ const initial_values = [
     },
     {
       level: "moyen",
+      question: "Quel est le nom du point de l'océan le plus éloigné de toute terre émergée ?",
+      answer: "Le point Nemo",
+    },
+    {
+      level: "moyen",
+      question: "En combien d'arrondissements est divisée la ville de Paris ?",
+      answer: "20",
+    },
+    {
+      level: "moyen",
       question: "Qui a peint le plafond de la chapelle Sixtine à Rome ?",
       answer: "Michel-Ange",
     },
@@ -214,12 +224,12 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "Qui a réalisé le film Les Dents de la mer ?",
+      question: "Qui a réalisé le film Les Dents de la mer en 1975 ?",
       answer: "Steven Spielberg",
     },
     {
       level: "moyen",
-      question: "Qui a réalisé le film Shining ?",
+      question: "Qui a réalisé le film Shining en 1980 ?",
       answer: "Stanley Kubrick",
     },
     {
@@ -334,6 +344,11 @@ const initial_values = [
     },
     {
       level: "difficile",
+      question: "Quelle est la distance entre la Terre et la station spatiale internationale ?",
+      answer: "408 kilomètres",
+    },
+    {
+      level: "difficile",
       question: "Quel Pokémon porte le numéro 1 ?",
       answer: "Bulbizarre",
     },
@@ -341,11 +356,6 @@ const initial_values = [
       level: "difficile",
       question: "Quelle était la longueur du Titanic ?",
       answer: "269 m",
-    },
-    {
-      level: "difficile",
-      question: "12x12",
-      answer: "144",
     },
     {
       level: "difficile",
@@ -359,8 +369,18 @@ const initial_values = [
     },
     {
       level: "difficile",
-      question: "Qui a réalisé le film Le Bon, la Brute et le Truand ?",
+      question: "Qui a réalisé le film Le Bon, la Brute et le Truand en 1966 ?",
       answer: "Sergio Leone",
+    },
+    {
+      level: "difficile",
+      question: "Qui a réalisé le film Citizen Kane en 1941 ?",
+      answer: "Orson Welles",
+    },
+    {
+      level: "difficile",
+      question: "Qui a réalisé le film Les Temps Modernes en 1936 ?",
+      answer: "Charlie Chaplin",
     },
     {
       level: "difficile",
@@ -384,7 +404,7 @@ const initial_values = [
     },
     {
       level: "difficile",
-      question: "Quel est le tout premier film de Quentin Tarantino ?",
+      question: "Quel est le nom du premier film de Quentin Tarantino ?",
       answer: "Reservoir Dogs",
     },
     {
@@ -399,8 +419,28 @@ const initial_values = [
     },
     {
       level: "difficile",
+      question: "Qui joue le rôle de Randall P. McMurphy dans le film Vol au-dessus d'un nid de coucou ?",
+      answer: "Jack Nicholson",
+    },
+    {
+      level: "difficile",
+      question: "De quel film provient la réplique «On ne laisse pas Bébé dans un coin» ?",
+      answer: "Dirty Dancing",
+    },
+    {
+      level: "difficile",
+      question: "De quel film provient la réplique «Dis bonjour à mon petit copain!» ?",
+      answer: "Scarface",
+    },
+    {
+      level: "difficile",
       question: "Combien y a-t-il d'océans sur Terre ?",
       answer: "5",
+    },
+    {
+      level: "difficile",
+      question: "Combien de temps le match de tennis le plus long de l'histoire a-t-il duré ?",
+      answer: "11 heures et 5 minutes",
     },
     {
       level: "difficile",
