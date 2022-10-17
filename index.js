@@ -199,7 +199,7 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "En combien d'arrondissements est divisée la ville de Paris ?",
+      question: "En combien d'arrondissements la ville de Paris est-elle divisée ?",
       answer: "20",
     },
     {
@@ -221,6 +221,11 @@ const initial_values = [
       level: "moyen",
       question: "Depuis quelle année une femme est libre de travailler sans l'accord de son mari ?",
       answer: "1965",
+    },
+    {
+      level: "moyen",
+      question: "Qui a fondé la marque de vêtements Off-White ?",
+      answer: "Virgil Abloh",
     },
     {
       level: "moyen",
@@ -296,6 +301,11 @@ const initial_values = [
       level: "moyen",
       question: "Qui était le premier président des États-Unis ?",
       answer: "George Washington",
+    },
+    {
+      level: "moyen",
+      question: "Comment appelle-t-on les habitants de Montcuq ?",
+      answer: "Les Montcuquois/Montcuquoises",
     },
     {
       level: "moyen",
@@ -384,7 +394,7 @@ const initial_values = [
     },
     {
       level: "difficile",
-      question: "Qui a fondé la célèbre marque de luxe Gucci ?",
+      question: "Qui a fondé la marque de vêtements Gucci ?",
       answer: "Guccio Gucci",
     },
     {
@@ -434,13 +444,8 @@ const initial_values = [
     },
     {
       level: "difficile",
-      question: "Combien y a-t-il d'océans sur Terre ?",
-      answer: "5",
-    },
-    {
-      level: "difficile",
-      question: "Combien de temps le match de tennis le plus long de l'histoire a-t-il duré ?",
-      answer: "11 heures et 5 minutes",
+      question: "En quelle année la loi concernant la séparation des Églises et de l'État a-t-elle été adoptée ?",
+      answer: "1905",
     },
     {
       level: "difficile",
