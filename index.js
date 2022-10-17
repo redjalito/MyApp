@@ -129,13 +129,18 @@ const initial_values = [
     },
     {
       level: "facile",
-      question: "Combien de nouvelles chaînes sont apparus grâce à la TNT ?",
-      answer: "12",
+      question: "En quelle année a eu lieu le lancement de la TNT (Télévision Numérique Terrestre) en France métropolitaine ?",
+      answer: "2005",
     },
     {
       level: "facile",
       question: "Quelle année a suivi l’an 1 avant JC ?",
       answer: "L’an 1 après JC",
+    },
+    {
+      level: "facile",
+      question: "De combien de nations le Royaume-Uni est-il constitué ?",
+      answer: "4",
     },
     {
       level: "facile",
@@ -169,7 +174,7 @@ const initial_values = [
     },
     {
       level: "facile",
-      question: "Qui interprète le rôle de Michael Corleone dans Le Parrain ?",
+      question: "Qui interprète le rôle de Michael Corleone dans le film Le Parrain ?",
       answer: "Al Pacino",
     },
     {
@@ -194,7 +199,7 @@ const initial_values = [
     },
     {
       level: "moyen",
-      question: "Quel animal est le prédateur des cobras ?",
+      question: "Quel animal est le plus grand prédateur des cobras ?",
       answer: "La mangouste",
     },
     {
@@ -269,6 +274,11 @@ const initial_values = [
     },
     {
       level: "moyen",
+      question: "Quel est le vrai nom de Voldemort ?",
+      answer: "Tom Elvis Jedusor",
+    },
+    {
+      level: "moyen",
       question: "Quelle enseigne a développé le jeux-vidéo GTA ?",
       answer: "Rockstar Games",
     },
@@ -304,11 +314,6 @@ const initial_values = [
     },
     {
       level: "difficile",
-      question: "En quelle année le métro de Londres a-t-il été créé ?",
-      answer: "1863",
-    },
-    {
-      level: "difficile",
       question: "De quel pays Lima est-elle la capitale ?",
       answer: "Pérou",
     },
@@ -326,11 +331,6 @@ const initial_values = [
       level: "difficile",
       question: "Quel Pokémon porte le numéro 1 ?",
       answer: "Bulbizarre",
-    },
-    {
-      level: "difficile",
-      question: "En quelle année la NASA a-t-elle annoncé avoir réussi à faire éclore la première fleur dans l’espace ?",
-      answer: "2016",
     },
     {
       level: "difficile",
@@ -386,6 +386,11 @@ const initial_values = [
       level: "difficile",
       question: "Qui a fondé l'Académie Française ?",
       answer: "Le cardinal de Richelieu",
+    },
+    {
+      level: "difficile",
+      question: "Qui joue le rôle d'Alouette (Sugar dans la VO) dans le film Certains l'aiment chaud ?",
+      answer: "Marilyn Monroe",
     },
     {
       level: "difficile",
